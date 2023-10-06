@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css ">
+    <link rel="stylesheet" href="css/sheet.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+ 
+    <div class="card">
+        <h1>GPA Calculator</h1>
+        <div class="card-body">
+            <div class="two">
+                <div class="three">
+                  <input class="form-control" type="text" placeholder="student`s name" id="name">
+                  <div class="options">
+                    <select class="calc">
+                        <option title="A"  value="4">A</option>
+                        <option title="B" value="3">B</option>
+                        <option title="c" value="2">c</option>
+                        <option title="D"value="1">D</option>
+                        <option title="F" value="0">F</option>
+                    </select>
+                    <select class="calc">
+                        <option title="A"value="4">A</option>
+                        <option  title="B"value="3">B</option>
+                        <option title="c" value="2">C</option>
+                        <option  title="D"value="1">D</option>
+                        <option  title="f" value="0">F</option>
+                    </select>
+                    <select class="calc" >
+                        <option title="A" value="4">A</option>
+                        <option  title="B" value="3">B</option>
+                        <option  title="c"value="2">C</option>
+                        <option title="D"value="1">D</option>
+                        <option title="f" value="0">F</option>
+                                 
+                    </select>
+                    <select class="calc">
+                        <option title="A"value="4">A</option>
+                        <option  title="B"value="3">B</option>
+                        <option title="c" value="2">C</option>
+                        <option  title="D"value="1">D</option>
+                        <option  title="f" value="0">F</option>
+                    </select>
+                  </div>
+
+
+                  
+                    <div class="count">
+                        <input type="text" placeholder="GPA" id="countitems">
+                    </div>
+                    <div class="gender" >
+                        <select name="" id="Department">
+                            <option  value="first">first</option>
+                            <option value="second">second</option>
+                            <option value="third">third</option>
+                            <option value="fourth">fourth</option>
+                        </select>
+                    </div>
+                    <button class="btn1">Send Data</button>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+   
+    <div >
+        <div class="card" id="card2">
+            <h1>STUDENTS INFO</h1>
+    
+            <div class="card-body">
+                <div class="danger">
+                    <button class="btn-danger">CLEAR ALL <span class="countdata"></span></button>
+                </div>
+                <div class="table">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#id</th>
+                                <th scope="col">NAME</th>
+                                <th  colspan="2">Action</th>
+                                <!-- <th scope="col">GRADE_1</th>
+                                <th scope="col">GRADE_2</th>
+                                <th scope="col">GRADE_3</th>
+                                <th scope="col">GRADE_4</th>
+                                <th scope="col">GPA</th>
+                                <th scope="col" >YEAR</th> -->
+                               
+    
+      
+                            </tr>
+                           
+                        </thead>
+                       <tbody id="tbody">
+                        
+                       </tbody>
+                       
+                    </table>
+                </div>
+               
+            </div>
+             <!-- <button type="button" class="btn btn-primary"  id="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Launch demo modal
+              </button>
+        </div>
+        <div id="layout" class="layout "> -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">student info</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div> 
+      
+    
+    
+
+    </div>
+   
+    <script src="./js/bootstrap.bundle.min.js"></script>  
+<script src="./js/main.js"></script>
+</body>
+</html>

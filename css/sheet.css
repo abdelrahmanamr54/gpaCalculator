@@ -1,0 +1,110 @@
+*{
+     text-align: center;
+     margin: auto; 
+}
+body{
+    background-color: aliceblue;
+}
+.card{
+    /* width: 85%; */
+    /* border-radius: 10px;  */
+    /* background-color: rgb(136, 136,136); */
+    
+}
+ .card h1{
+    color: rgb(57, 160, 41);
+    font-size: 35px;
+ }
+ .card .one{
+    /* background-color: rgb(107, 107, 107); */
+
+    
+    border-radius: 10px; 
+ }
+ .three input{
+   width: 95%;
+    padding: 10px 0px;
+    font-size: 35px; 
+ }
+
+ .card .one h1 {
+   background-color: white;
+   
+ }
+ .card-body{
+   width: 97%;
+ }
+
+ .card .one .inputs{
+padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;    
+ }
+ .options{
+   padding-top: 10px;
+   display: flex;
+   flex-wrap: wrap;    
+ }
+ .options select{
+   width: 22%;
+   padding: 5px 0px;
+ }
+
+ .card .one .inputs input{
+  
+    /* width: 24%; */
+    font-size: 20px;
+    font-weight: 400;
+ }
+ .count input{
+    padding: 3px 0px;
+    width:97% 
+    ;
+    margin-top: 12px;
+ }
+ .gender select{
+    margin-top: 12px;
+    width: 97%;
+    height: 35px;
+ }
+.btn1{
+    margin-top: 15px;
+    background-color: rgb(28, 177, 177);
+    color: white;
+    width: 97%;
+    border-radius: 10px;
+    padding: 8px 0px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+#card2{
+    margin-top: 100px;
+}
+.card table{
+/* margin: 10px; */
+}
+.card table th{
+   /* padding-right: 10px; */
+  
+}
+.danger button{
+   width: 99%;
+   background-color: red;
+   color: white;
+   padding: 8px 0px;
+   font-size: 20px;
+   cursor: pointer;
+   display: none;
+}
+.table{
+   background-color: white;
+}
+i{
+   color: red;
+}
+#itwo{
+   color: blue;
+}  
+.none{
+   display: none;
+}
